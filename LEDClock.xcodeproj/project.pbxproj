@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D645C5B62FD495B300569EDB /* LEDClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645C5B52FD495B300569EDB /* LEDClockApp.swift */; };
+		D645C5B82FD495B300569EDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645C5B72FD495B300569EDB /* ContentView.swift */; };
+		D645C5BA2FD495B500569EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D645C5B92FD495B500569EDB /* Assets.xcassets */; };
+		D645C5BD2FD495B500569EDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D645C5BC2FD495B500569EDB /* Preview Assets.xcassets */; };
+		D645C5C72FD495B600569EDB /* LEDClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645C5C62FD495B600569EDB /* LEDClockTests.swift */; };
+		D645C5D12FD495B600569EDB /* LEDClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645C5D02FD495B600569EDB /* LEDClockUITests.swift */; };
+		D645C5D32FD495B600569EDB /* LEDClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645C5D22FD495B600569EDB /* LEDClockUITestsLaunchTests.swift */; };
+		D645C5E02FD495DF00569EDB /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645C5DF2FD495DF00569EDB /* ClockViewModel.swift */; };
+		D645C5E22FD4960500569EDB /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645C5E12FD4960500569EDB /* Segment.swift */; };
+		D645C5E42FD4963300569EDB /* SevenSegmentDigt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645C5E32FD4963300569EDB /* SevenSegmentDigt.swift */; };
+		D645C5E62FD4965C00569EDB /* ColonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645C5E52FD4965C00569EDB /* ColonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D645C5C32FD495B600569EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D645C5AA2FD495B200569EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D645C5B12FD495B200569EDB;
+			remoteInfo = LEDClock;
+		};
+		D645C5CD2FD495B600569EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D645C5AA2FD495B200569EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D645C5B12FD495B200569EDB;
+			remoteInfo = LEDClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D645C5B22FD495B300569EDB /* LEDClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D645C5B52FD495B300569EDB /* LEDClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDClockApp.swift; sourceTree = "<group>"; };
+		D645C5B72FD495B300569EDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D645C5B92FD495B500569EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D645C5BC2FD495B500569EDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D645C5C22FD495B600569EDB /* LEDClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D645C5C62FD495B600569EDB /* LEDClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDClockTests.swift; sourceTree = "<group>"; };
+		D645C5CC2FD495B600569EDB /* LEDClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D645C5D02FD495B600569EDB /* LEDClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDClockUITests.swift; sourceTree = "<group>"; };
+		D645C5D22FD495B600569EDB /* LEDClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D645C5DF2FD495DF00569EDB /* ClockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
+		D645C5E12FD4960500569EDB /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
+		D645C5E32FD4963300569EDB /* SevenSegmentDigt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenSegmentDigt.swift; sourceTree = "<group>"; };
+		D645C5E52FD4965C00569EDB /* ColonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D645C5AF2FD495B200569EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D645C5BF2FD495B600569EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D645C5C92FD495B600569EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D645C5A92FD495B200569EDB = {
+			isa = PBXGroup;
+			children = (
+				D645C5B42FD495B300569EDB /* LEDClock */,
+				D645C5C52FD495B600569EDB /* LEDClockTests */,
+				D645C5CF2FD495B600569EDB /* LEDClockUITests */,
+				D645C5B32FD495B300569EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D645C5B32FD495B300569EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D645C5B22FD495B300569EDB /* LEDClock.app */,
+				D645C5C22FD495B600569EDB /* LEDClockTests.xctest */,
+				D645C5CC2FD495B600569EDB /* LEDClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D645C5B42FD495B300569EDB /* LEDClock */ = {
+			isa = PBXGroup;
+			children = (
+				D645C5EA2FD4973B00569EDB /* ViewModel */,
+				D645C5E92FD4971000569EDB /* View */,
+				D645C5B52FD495B300569EDB /* LEDClockApp.swift */,
+				D645C5B92FD495B500569EDB /* Assets.xcassets */,
+				D645C5BB2FD495B500569EDB /* Preview Content */,
+			);
+			path = LEDClock;
+			sourceTree = "<group>";
+		};
+		D645C5BB2FD495B500569EDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D645C5BC2FD495B500569EDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D645C5C52FD495B600569EDB /* LEDClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D645C5C62FD495B600569EDB /* LEDClockTests.swift */,
+			);
+			path = LEDClockTests;
+			sourceTree = "<group>";
+		};
+		D645C5CF2FD495B600569EDB /* LEDClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D645C5D02FD495B600569EDB /* LEDClockUITests.swift */,
+				D645C5D22FD495B600569EDB /* LEDClockUITestsLaunchTests.swift */,
+			);
+			path = LEDClockUITests;
+			sourceTree = "<group>";
+		};
+		D645C5E92FD4971000569EDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D645C5E32FD4963300569EDB /* SevenSegmentDigt.swift */,
+				D645C5B72FD495B300569EDB /* ContentView.swift */,
+				D645C5E52FD4965C00569EDB /* ColonView.swift */,
+				D645C5E12FD4960500569EDB /* Segment.swift */,
+			);
+			name = View;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D645C5EA2FD4973B00569EDB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D645C5DF2FD495DF00569EDB /* ClockViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D645C5B12FD495B200569EDB /* LEDClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D645C5D62FD495B600569EDB /* Build configuration list for PBXNativeTarget "LEDClock" */;
+			buildPhases = (
+				D645C5AE2FD495B200569EDB /* Sources */,
+				D645C5AF2FD495B200569EDB /* Frameworks */,
+				D645C5B02FD495B200569EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDClock;
+			productName = LEDClock;
+			productReference = D645C5B22FD495B300569EDB /* LEDClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D645C5C12FD495B600569EDB /* LEDClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D645C5D92FD495B600569EDB /* Build configuration list for PBXNativeTarget "LEDClockTests" */;
+			buildPhases = (
+				D645C5BE2FD495B600569EDB /* Sources */,
+				D645C5BF2FD495B600569EDB /* Frameworks */,
+				D645C5C02FD495B600569EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D645C5C42FD495B600569EDB /* PBXTargetDependency */,
+			);
+			name = LEDClockTests;
+			productName = LEDClockTests;
+			productReference = D645C5C22FD495B600569EDB /* LEDClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D645C5CB2FD495B600569EDB /* LEDClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D645C5DC2FD495B600569EDB /* Build configuration list for PBXNativeTarget "LEDClockUITests" */;
+			buildPhases = (
+				D645C5C82FD495B600569EDB /* Sources */,
+				D645C5C92FD495B600569EDB /* Frameworks */,
+				D645C5CA2FD495B600569EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D645C5CE2FD495B600569EDB /* PBXTargetDependency */,
+			);
+			name = LEDClockUITests;
+			productName = LEDClockUITests;
+			productReference = D645C5CC2FD495B600569EDB /* LEDClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D645C5AA2FD495B200569EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D645C5B12FD495B200569EDB = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D645C5C12FD495B600569EDB = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D645C5B12FD495B200569EDB;
+					};
+					D645C5CB2FD495B600569EDB = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D645C5B12FD495B200569EDB;
+					};
+				};
+			};
+			buildConfigurationList = D645C5AD2FD495B200569EDB /* Build configuration list for PBXProject "LEDClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D645C5A92FD495B200569EDB;
+			productRefGroup = D645C5B32FD495B300569EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D645C5B12FD495B200569EDB /* LEDClock */,
+				D645C5C12FD495B600569EDB /* LEDClockTests */,
+				D645C5CB2FD495B600569EDB /* LEDClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D645C5B02FD495B200569EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D645C5BD2FD495B500569EDB /* Preview Assets.xcassets in Resources */,
+				D645C5BA2FD495B500569EDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D645C5C02FD495B600569EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D645C5CA2FD495B600569EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D645C5AE2FD495B200569EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D645C5E62FD4965C00569EDB /* ColonView.swift in Sources */,
+				D645C5B82FD495B300569EDB /* ContentView.swift in Sources */,
+				D645C5B62FD495B300569EDB /* LEDClockApp.swift in Sources */,
+				D645C5E02FD495DF00569EDB /* ClockViewModel.swift in Sources */,
+				D645C5E42FD4963300569EDB /* SevenSegmentDigt.swift in Sources */,
+				D645C5E22FD4960500569EDB /* Segment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D645C5BE2FD495B600569EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D645C5C72FD495B600569EDB /* LEDClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D645C5C82FD495B600569EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D645C5D32FD495B600569EDB /* LEDClockUITestsLaunchTests.swift in Sources */,
+				D645C5D12FD495B600569EDB /* LEDClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D645C5C42FD495B600569EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D645C5B12FD495B200569EDB /* LEDClock */;
+			targetProxy = D645C5C32FD495B600569EDB /* PBXContainerItemProxy */;
+		};
+		D645C5CE2FD495B600569EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D645C5B12FD495B200569EDB /* LEDClock */;
+			targetProxy = D645C5CD2FD495B600569EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D645C5D42FD495B600569EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D645C5D52FD495B600569EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D645C5D72FD495B600569EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LEDClock/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LEDClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D645C5D82FD495B600569EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LEDClock/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LEDClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D645C5DA2FD495B600569EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LEDClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEDClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LEDClock";
+			};
+			name = Debug;
+		};
+		D645C5DB2FD495B600569EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LEDClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEDClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LEDClock";
+			};
+			name = Release;
+		};
+		D645C5DD2FD495B600569EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LEDClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEDClock;
+			};
+			name = Debug;
+		};
+		D645C5DE2FD495B600569EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.LEDClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEDClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D645C5AD2FD495B200569EDB /* Build configuration list for PBXProject "LEDClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D645C5D42FD495B600569EDB /* Debug */,
+				D645C5D52FD495B600569EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D645C5D62FD495B600569EDB /* Build configuration list for PBXNativeTarget "LEDClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D645C5D72FD495B600569EDB /* Debug */,
+				D645C5D82FD495B600569EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D645C5D92FD495B600569EDB /* Build configuration list for PBXNativeTarget "LEDClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D645C5DA2FD495B600569EDB /* Debug */,
+				D645C5DB2FD495B600569EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D645C5DC2FD495B600569EDB /* Build configuration list for PBXNativeTarget "LEDClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D645C5DD2FD495B600569EDB /* Debug */,
+				D645C5DE2FD495B600569EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D645C5AA2FD495B200569EDB /* Project object */;
+}
